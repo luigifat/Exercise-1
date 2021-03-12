@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Country by latitude and longitude</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Luigi Fatigato">
+
+	</head>
+
+	<body>
+        <p> latitude:</p>
+		<select id="sellat" >
+			<option value="0">0</option>
+			<option value="55">55</option>
+			
+		</select>
+         <p> longitude:</p>
+		<select id="sellong" >
+			<option value="40">40</option>
+			<option value="30">30</option>
+		
+		</select>
+
+		<button id="btnRun" >Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+
+				<tr>
+					<td align="right">
+						Code: 
+					</td>
+					<td id="Code">
+						 
+					</td>
+
+				</tr>
+				<tr>
+					<td align="right">
+						Country: 
+					</td>
+					<td id="Country">
+						 
+					</td>
+
+				</tr>
+
+
+			</table>
+
+		</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/scriptCodes.js"></script>
+
+	</body>
+
+</html>

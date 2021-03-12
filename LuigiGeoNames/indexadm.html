@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Subdivisions</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Luigi Fatigato">
+
+	</head>
+
+	<body>
+		<!--This html file is on  the number of the "childs" of a Region
+		 Italy has 20 childs(Regioni: Sicily, Sardinia, Calabria, Lombardia ...) Canaries has two childs (Main towns)
+		and United Kingdom has 4 childs (England, Scotland, Wales and Northern Ireland)-->
+
+		<select id="selCountry">
+			<option value="3175395">Italy</option>
+			<option value="2593110">Canaries</option>
+			<option value="2635167">United Kingdom</option>
+			
+			
+		</select>
+
+		
+		<button id="btnRun">Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+
+				<tr>
+					<td align="right">
+						Number of subdivisions: 
+					</td>
+					<td id="subdivisions">
+						
+					</td>
+
+				</tr>
+
+				
+
+				
+					
+				
+
+			</table>
+
+		</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/scriptsubdiv.js"></script>
+
+	</body>
+
+</html>

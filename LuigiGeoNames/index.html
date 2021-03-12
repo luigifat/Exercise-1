@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title author="Luigi Fatigato"> Three API results</title>
+</head>
+<body>
+<h1>Three geoNames API results  </h1>
+<table>
+    <tr>
+        <th> 
+            API name
+        </th>
+        <th>
+            API description
+        </th>
+        <th>
+            Activate Button
+        </th>
+
+    </tr>
+
+    <tr>
+        <td>
+            children
+        </td>
+        <td>
+            Returns the number of geographic subdivisions of a Country
+        </td>
+        <td>
+            <button onclick="document.getElementById('API').src='indexadm.html'">RUN</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            codes
+        </td>
+        <td>
+            Returns a Country by latitude and longitude
+        </td>
+        <td>
+            <button onclick="document.getElementById('API').src='indexcodes.html'">RUN</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            earthquakes
+        </td>
+        <td>
+            Returns the Magnitude and the date of an earthquake, given South North, East and West
+        </td>
+        <td>
+            <button onclick="document.getElementById('API').src='indexearthquakes.html'">RUN</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <iframe id='API' src=''></iframe>
+        </td>
+    </tr>
+
+
+
+</table>
+
+</body>

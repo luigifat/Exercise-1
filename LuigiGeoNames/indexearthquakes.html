@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Earthquakes</title>
+		<meta name="description" content="Earthquakes">
+		<meta name="author" content="Luigi Fatigato">
+
+	</head>
+
+	<body>
+        <p>North coordinate</p> 
+		<select id="North">
+			<option value="0">0</option>
+			<option value="40">40</option>
+			
+		</select>
+		<p>South coordinate</p> 
+		<select id="South">
+			<option value="-10">-10</option>
+			<option value="-80">-80</option>
+			
+		</select>
+		<p>East coordinate</p> 
+		<select id="East">
+			<option value="30">30</option>
+			<option value="70">70</option>
+			
+		</select>
+        <p>West coosdinate</p>
+
+		<select id="West">
+			<option value="-20">-20</option>
+			<option value="-85">-85</option>
+			
+		</select>
+
+
+		<button id="btnRun">Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+
+				<tr>
+					<td align="right">
+						Date: 
+					</td>
+					<td id="Date">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Magnitudo: 
+					</td>
+					<td id="Magnitudo">
+						
+					</td>
+
+				</tr>
+
+			
+			</table>
+
+		</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/scriptearthquakes.js"></script>
+
+	</body>
+
+</html>
